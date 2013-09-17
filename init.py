@@ -11,6 +11,7 @@ def parse_argv(argv):
 def gen_init_file(f):
     with open(f, 'w') as fr:
         fr.write("""#include<iostream>
+#include<stdio.h>
 
 using namespace std;
 
