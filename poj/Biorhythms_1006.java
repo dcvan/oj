@@ -16,13 +16,10 @@ public class Main {
 				break;
 			
 			int p = a - 21252;
-			while ((p - a) % 23 != 0 || (p - b) % 28 != 0 || (p - c) % 33 != 0
-				|| p <= d){
+			while ((p - a) % 23 != 0 || (p - b) % 28 != 0 || (p - c) % 33 != 0 || p <= d)
 				p += 23;
-			}
 
-			System.out.println("Case " + caseNum + ": the next triple peak occurs in " + (p - d) + " days.");
-			
+			System.out.println("Case " + caseNum + ": the next triple peak occurs in " + (p - d) + " days.");		
 		}
 	}
 }
